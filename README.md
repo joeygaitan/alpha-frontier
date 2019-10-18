@@ -1,5 +1,5 @@
 ### Technologies used
 
-React, Context-Api, React Router, PayPal Api, Google Firebase
+React, Context-Api, React Router, PayPal Api, Google Firebasex
 
 ### 
