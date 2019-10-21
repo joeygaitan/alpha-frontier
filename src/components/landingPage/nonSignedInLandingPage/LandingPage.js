@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 
 //navbar component
-import Navbar from '../../higherOrderComponents/Navbar/navbar';
+import Navbar from '../../../higherOrderComponents/Navbar/navbar';
 
 //images
-import Header from '../../assets/header/0.jpg'
+import Header from '../../../assets/header/0.jpg'
+
+//css
+import './styles/nonUserLandingPage.css'
 
 class LandingPage extends Component {
     constructor(props) {
@@ -15,8 +18,8 @@ class LandingPage extends Component {
         return (
         <div>
             <Navbar/>
-            <div className='headerImage'>
-                <img src ={Header}/>
+            <div className='header'>
+                <img src ={Header} id='headerImage'/>
             </div>
             <div className ='bodyItems'>        
                     {/* {this.props.items.map((item)=>{

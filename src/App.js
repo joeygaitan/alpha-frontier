@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LandingPage from './components/landingPage/LandingPage';
+import LandingPage from './components/landingPage/nonSignedInLandingPage/LandingPage';
 import UserLogin from './components/Userlogin/UserLogin';
 import AdminLogin from './components/AdminLogin/AdminLogin';
 
