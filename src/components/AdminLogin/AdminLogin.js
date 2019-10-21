@@ -9,6 +9,11 @@ class AdminLogin extends Component {
             errorMessage: false
          }
     }
+
+    signIn = () => {
+        
+    }
+
     render() { 
         return ( 
             <div>
