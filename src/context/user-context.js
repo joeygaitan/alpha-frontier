@@ -3,7 +3,11 @@ import React from 'react'
 export default React.createContext({
     user: '',
     pending: true,
-    items: [],
-    addToCart: (cartItemId)=>{},
-    removeFromCart: (cartItemId)=>{}
+    item:[],
+    signUp:()=>{},
+    logIn:()=>{},
+    logOut:()=>{},
+    addToCart: (itemId)=>{},
+    removeFromCart: (itemId)=>{},
+    checkOut: ()=>{}
 })
