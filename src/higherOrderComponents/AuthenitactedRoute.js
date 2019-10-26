@@ -20,7 +20,6 @@ class AuthenitactedRoute extends Component {
                 return <Redirect to = '/login'/>
             }
         }
-    }
 }
  
 export default AuthenitactedRoute;
