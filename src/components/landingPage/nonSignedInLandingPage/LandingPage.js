@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 //navbar component
-import Navbar from '../../../higherOrderComponents/Navbar/navbar';
+import Navbar from '../../../higherOrderComponents/Navbar/nonSignedInNavBar/navbar';
 
 //images
 import Header from '../../../assets/header/0.jpg'
@@ -25,7 +25,7 @@ class LandingPage extends Component {
                     {/* {this.props.items.map((item)=>{
                         return (
                         <div> 
-
+                            
                         </div>)
                     })} */}
             </div>

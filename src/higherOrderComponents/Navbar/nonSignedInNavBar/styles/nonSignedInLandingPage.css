@@ -1,0 +1,11 @@
+#navBar {
+    background-color: #222931;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 1px;
+}
+
+.h5Tags{
+    color: white;
+    padding-left: 10px;
+}

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
-class Nabbar extends Component {
+class userNavbar extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
     }
     render() { 
-        return ( 
+        return (
             <div>
                 
             </div>
-         );
+          );
     }
 }
  
-export default Nabbar;
+export default userNavbar;

@@ -16,7 +16,8 @@ class App extends Component {
                     <Switch>
                         <Route exact path = '/' component={LandingPage}/>
                         <Route path = '/login' component={UserLogin}/>
-                        <Route path = '/admin-login' component={AdminLogin}/>
+                        <Route path='/admin-login' component={AdminLogin}/>
+                        <AuthenitactedRoute />
                     </Switch>
                 </div>
             </Router>
